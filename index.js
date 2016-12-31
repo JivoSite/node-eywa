@@ -8,7 +8,7 @@ else
       const conf = {};
       const args = [];
       require('./lib/getopt')(opts, conf, args
-         , '/etc/eywa.json', '~/.eywa.json');
+         , '/etc/node-eywa.json', '~/.node-eywa.json');
       log.verbose = conf.verbose;
       log.add(conf.log);
       (require(conf.neuron ? './lib/neuron' : './lib/axon-shell')
