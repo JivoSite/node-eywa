@@ -1,0 +1,16 @@
+Version: 1.0
+
+
+                               Eywa
+
+   Fault-tolerant, loosely-coupled network for the exchange of messages
+   between services.
+
+Neuron
+   Neuron is a network node.
+
+Axon
+   Axon is a client module for nodejs.
+
+Axon-shell
+   Axon-shell is a client-shell for eywa.

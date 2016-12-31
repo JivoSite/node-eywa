@@ -1,0 +1,54 @@
+{
+   "name" : "eywa",
+   "version" : "1.0",
+   "description" : "simple service mesaging\nFault-tolerant, loosely-coupled network for the exchange of messages between services\n\nNeuron is a network node\nAxon is a client module for nodejs\nAxon-shell is a client-shell for eywa",
+   "keywords" : "fault-tolerant loosely-coupled service messaging",
+   "homepage" : "https://www.jivochat.com/",
+   "bugs" :
+   {
+      "url"   : "https://www.jivochat.com/",
+      "email" : "mikhaylov@jivosite.com"
+   },
+   "license" : "GPL-3.0",
+   "author" :
+   {
+      "name"  : "Yegeny Mikhaylov",
+      "email" : "<mikhaylov@jivosite.com>",
+      "url"   : "https://www.jivochat.com"
+   },
+   "contributors" :
+   [
+      {
+         "name"  : "JivoSite Inc.",
+         "email" : "info@jivosite.com",
+         "url"   : "https://www.jivochat.com"
+      }
+   ],
+   "files" :
+   [
+      "index.js",
+      "launch.sh",
+      "lib",
+      "options.json",
+      "package.json",
+      "README"
+   ],
+   "main" : "index.js",
+   "repository" :
+   {
+      "type" : "git",
+      "url"  : "https://github.com/JivoSite/node-eywa.git"
+   },
+   "engines" :
+   {
+      "node" : ">=6.9.2 <7.999"
+   },
+   "os" : [ "linux" ],
+   "debian" :
+   {
+      "depends" : "nodejs (>= 6.9.2)",
+      "systemd" : "--",
+      "appargs" : "--neuron",
+      "config"  : "config.json"
+   }
+}

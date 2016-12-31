@@ -1,0 +1,16 @@
+{
+   "help"       :   "h?",
+   "version"    :   null,
+   "verbose"    :    "v",
+   "test"       :    "t",
+   "debug"      : [  "d",  null, "mode", false                    ],
+   "bind"       : [  "b",  null, "=URI", [ "//", "http://:1080" ] ],
+   "ifs"        : [ null, "IFS", "=IFS", " \t"                    ],
+   "log.neuron" : [ null,  null, "=URI", [ ]                      ],
+   "net.retry"  : [  "R",  null, "=num", null                     ],
+   "net.send"   : [  "S",  null, "=sec", null                     ],
+   "net.ping"   : [  "P",  null, "=sec", null                     ],
+   "net.kill"   : [  "K",  null, "=sec", null                     ],
+   "net.dns"    : [  "D",  null, "=sec", null                     ],
+   "neuron"     :   null
+}

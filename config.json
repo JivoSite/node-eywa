@@ -1,0 +1,17 @@
+{
+   "debug" : false,
+   "ifs"   : " \t",
+   "log"   :
+   {
+      "neuron" : "udp://127.0.0.1:6514?hostname=local&appname=app&facility=3#d+"
+   },
+   "net"   :
+   {
+      "retry" : null,
+      "send"  : null,
+      "ping"  : null,
+      "kill"  : null,
+      "dns"   : null
+   },
+   "": "//axon@eywa"
+}
