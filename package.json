@@ -47,8 +47,7 @@
    "debian" :
    {
       "depends" : "nodejs (>= 6.9.2)",
-      "systemd" : "--",
-      "appargs" : "--neuron",
+      "systemd" : "-- --neuron",
       "config"  : "config.json"
    }
 }
