@@ -1,16 +1,16 @@
 #!/bin/sh
 
 # nodejs const
-readonly NODE=$(which "$NODEJS" || which node || which nodejs)
+readonly NODE="$(which "$NODEJS" || which node || which nodejs)"
 readonly MINV='v6.9.1'
 readonly MAXV='v7.999'
 readonly OPTS='--use_strict'
 
 # script const
-readonly BASE=$(dirname $(readlink -e "$0"))
+readonly BASE="$(dirname $(readlink -e "$0"))"
 readonly MAIN='index.js'
-readonly NAME=$(basename "$0")
-readonly ARGS=$(test "$NAME" = 'neuron' && echo '--neuron --log-neuron .tty')
+readonly NAME="$(basename "$0")"
+readonly ARGS="$(test "$NAME" = 'neuron' && echo '--neuron --log-neuron .tty')"
 
 # helpers
 emerg ()
