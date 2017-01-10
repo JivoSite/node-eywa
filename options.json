@@ -12,5 +12,6 @@
    "net.ping"   : [  "P",  null, "=sec", null                     ],
    "net.kill"   : [  "K",  null, "=sec", null                     ],
    "net.dns"    : [  "D",  null, "=sec", null                     ],
+   "net.length" : [  "L",  null, "=len", null                     ],
    "neuron"     :   null
 }
