@@ -1,6 +1,6 @@
 {
    "name" : "eywa",
-   "version" : "1.0",
+   "version" : "1.0.0",
    "description" : "simple service mesaging\nFault-tolerant, loosely-coupled web for the exchange of messages\nbetween services.\n\nNeuron is a web unit.\nAxon is a client module for nodejs.\nAxon-shell is a client-shell for axon.",
    "keywords" : "fault-tolerant loosely-coupled service messaging",
    "homepage" : "https://www.jivochat.com/",
