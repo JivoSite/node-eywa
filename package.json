@@ -41,9 +41,9 @@
    },
    "engines" :
    {
-      "node" : ">=6.9.2 <7.999"
+      "node" : ">=6.9.2 <8.999"
    },
-   "os" : [ "linux" ],
+   "os" : [ "linux", "darwin" ],
    "debian" :
    {
       "depends" : "nodejs (>= 6.9.2)"
