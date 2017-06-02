@@ -3,7 +3,7 @@
 # nodejs const
 readonly NODE="$(which "$NODEJS" || which node || which nodejs)"
 readonly MINV='v6.9.1'
-readonly MAXV='v7.999'
+readonly MAXV='v8.999'
 readonly OPTS='--use_strict'
 
 # script const
